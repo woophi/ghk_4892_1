@@ -35,7 +35,7 @@ export const App = () => {
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
           href="a-investments://CA?type=place&value=ideasGallery"
-          onClick={() => window.gtag('event', '4892_ideas1_var1')}
+          onClick={() => window.gtag('event', '4892_ideas1_var2')}
         >
           <PureCell.Content>
             <PureCell.Main>
@@ -51,9 +51,9 @@ export const App = () => {
 
         <div
           className={appSt.banner}
-          style={{ backgroundColor: '#8a74ff' }}
+          style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
-            window.gtag('event', '4892_ideas2_var1');
+            window.gtag('event', '4892_ideas2_var2');
             window.location.replace('a-investments://CA?type=place&value=ideasGallery');
           }}
         >
@@ -80,9 +80,9 @@ export const App = () => {
 
         <div
           className={appSt.banner}
-          style={{ backgroundColor: '#6a4dff' }}
+          style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
-            window.gtag('event', '4892_dfa_var1');
+            window.gtag('event', '4892_dfa_var2');
             window.location.replace('a-investments://CA?type=crossAuth&value=dfa');
           }}
         >
@@ -117,7 +117,7 @@ export const App = () => {
             className={appSt.swSlide}
             style={{ backgroundColor: item.bgColor }}
             onClick={() => {
-              window.gtag('event', `4892_strategy${itemIndex + 1}_var1`);
+              window.gtag('event', `4892_strategy${itemIndex + 1}_var2`);
               window.location.replace(item.link);
             }}
           >
@@ -150,7 +150,7 @@ export const App = () => {
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
           href="a-investments://CA?type=calendar"
-          onClick={() => window.gtag('event', '4892_calendar1_var1')}
+          onClick={() => window.gtag('event', '4892_calendar1_var2')}
         >
           <PureCell.Content>
             <PureCell.Main>
@@ -171,7 +171,7 @@ export const App = () => {
             key={item.title}
             className={appSt.swSlide2}
             onClick={() => {
-              window.gtag('event', `4892_calendar${itemIndex + 2}_var1`);
+              window.gtag('event', `4892_calendar${itemIndex + 2}_var2`);
               window.location.replace(item.link);
             }}
           >
@@ -213,7 +213,7 @@ export const App = () => {
             key={item.title}
             className={appSt.swSlide3}
             onClick={() => {
-              window.gtag('event', `4892_razm${itemIndex + 1}_var1`);
+              window.gtag('event', `4892_razm${itemIndex + 1}_var2`);
               window.location.replace(item.link);
             }}
             style={{ backgroundColor: item.bgColor }}
@@ -250,9 +250,9 @@ export const App = () => {
 
         <div
           className={appSt.banner}
-          style={{ backgroundColor: '#d6e8fc', color: 'initial', paddingRight: '0' }}
+          style={{ backgroundColor: '#F2F3F5', paddingRight: '0' }}
           onClick={() => {
-            window.gtag('event', '4892_crowd_var1');
+            window.gtag('event', '4892_crowd_var2');
             window.location.replace('a-investments://CA?type=crowdlending&value=crowdlending');
           }}
         >
@@ -270,7 +270,7 @@ export const App = () => {
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
           href="a-investments://CA?type=collections"
-          onClick={() => window.gtag('event', '4892_list1_var1')}
+          onClick={() => window.gtag('event', '4892_list1_var2')}
         >
           <PureCell.Content>
             <PureCell.Main>
@@ -289,10 +289,10 @@ export const App = () => {
         <SwiperSlide
           className={appSt.swSlide3}
           onClick={() => {
-            window.gtag('event', '4892_list2_var1');
+            window.gtag('event', '4892_list2_var2');
             window.location.replace('a-investments://CA?type=collections&value=9805');
           }}
-          style={{ backgroundColor: '#6b88cb', color: 'initial' }}
+          style={{ backgroundColor: '#F2F3F5' }}
         >
           <div>
             <Typography.TitleResponsive tag="h3" view="xsmall" font="system" weight="medium">
@@ -310,10 +310,10 @@ export const App = () => {
         <SwiperSlide
           className={appSt.swSlide3}
           onClick={() => {
-            window.gtag('event', '4892_list3_var1');
+            window.gtag('event', '4892_list3_var2');
             window.location.replace('a-investments://CA?type=collections&value=9805');
           }}
-          style={{ backgroundColor: '#6b88cb', color: 'initial' }}
+          style={{ backgroundColor: '#F2F3F5' }}
         >
           <div>
             <Typography.TitleResponsive tag="h3" view="xsmall" font="system" weight="medium">
@@ -322,7 +322,7 @@ export const App = () => {
           </div>
 
           <div className={appSt.row}>
-            <Typography.Text view="secondary-medium" tag="p" defaultMargins={false}>
+            <Typography.Text style={{ color: '#0404138C' }} view="secondary-medium" tag="p" defaultMargins={false}>
               Облигации
             </Typography.Text>
           </div>
@@ -331,10 +331,10 @@ export const App = () => {
         <SwiperSlide
           className={appSt.swSlide3}
           onClick={() => {
-            window.gtag('event', '4892_list4_var1');
+            window.gtag('event', '4892_list4_var2');
             window.location.replace('a-investments://CA?type=collections&value=9805');
           }}
-          style={{ backgroundColor: '#efb8c8', color: 'initial' }}
+          style={{ backgroundColor: '#F2F3F5' }}
         >
           <div>
             <Typography.TitleResponsive tag="h3" view="xsmall" font="system" weight="medium">
@@ -352,10 +352,10 @@ export const App = () => {
         <SwiperSlide
           className={appSt.swSlide3}
           onClick={() => {
-            window.gtag('event', '4892_list5_var1');
+            window.gtag('event', '4892_list5_var2');
             window.location.replace('a-investments://CA?type=collections&value=9805');
           }}
-          style={{ backgroundColor: '#efb8c8', color: 'initial' }}
+          style={{ backgroundColor: '#F2F3F5' }}
         >
           <div>
             <Typography.TitleResponsive tag="h3" view="xsmall" font="system" weight="medium">
@@ -364,7 +364,7 @@ export const App = () => {
           </div>
 
           <div className={appSt.row}>
-            <Typography.Text view="secondary-medium" tag="p" defaultMargins={false}>
+            <Typography.Text style={{ color: '#0404138C' }} view="secondary-medium" tag="p" defaultMargins={false}>
               Акции
             </Typography.Text>
             <img src={group41} width={40} height={44} />
@@ -386,9 +386,9 @@ export const App = () => {
 
         <div
           className={appSt.banner}
-          style={{ backgroundColor: '#FDE6C8', color: 'initial' }}
+          style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
-            window.gtag('event', '4892_feature_var1');
+            window.gtag('event', '4892_feature_var2');
             window.location.replace('a-investments://CA?type=place&value=tipRanks');
           }}
         >

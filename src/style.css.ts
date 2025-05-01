@@ -27,7 +27,6 @@ const banner = style({
   borderRadius: '16px',
   padding: '0 1rem',
   alignItems: 'center',
-  color: '#fff',
 });
 
 const bannerText = style({
@@ -48,7 +47,6 @@ const swSlide = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
-  color: '#FFFFFFF0',
 });
 const swSlide2 = style({
   height: '164px',
@@ -60,7 +58,7 @@ const swSlide2 = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
-  backgroundColor: '#BCE6E9',
+  backgroundColor: '#F2F3F5',
 });
 const swSlide3 = style({
   height: '160px',
@@ -72,7 +70,6 @@ const swSlide3 = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
-  color: '#ffffff',
 });
 
 const chip = style({
