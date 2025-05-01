@@ -27,6 +27,7 @@ const banner = style({
   borderRadius: '16px',
   padding: '0 1rem',
   alignItems: 'center',
+  justifyContent: 'space-between',
 });
 
 const bannerText = style({
