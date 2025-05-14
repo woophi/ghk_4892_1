@@ -43,7 +43,7 @@ export const App = () => {
 
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
-          href="a-investments://CA?type=place&value=ideasGallery"
+          href="alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dplace%26value%3DideasGallery"
           onClick={() => window.gtag('event', '4892_ideas1_var2')}
           ref={ideasInView.itemRef}
         >
@@ -64,7 +64,9 @@ export const App = () => {
           style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
             window.gtag('event', '4892_ideas2_var2');
-            window.location.replace('a-investments://CA?type=place&value=ideasGallery');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dplace%26value%3DideasGallery',
+            );
           }}
           ref={ideas2InView.itemRef}
         >
@@ -94,7 +96,9 @@ export const App = () => {
           style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
             window.gtag('event', '4892_dfa_var2');
-            window.location.replace('a-investments://CA?type=crossAuth&value=dfa');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3DcrossAuth%26value%3Ddfa',
+            );
           }}
           ref={dfaInView.itemRef}
         >
@@ -141,7 +145,7 @@ export const App = () => {
       <div className={appSt.container}>
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
-          href="a-investments://CA?type=calendar"
+          href="alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcalendar"
           onClick={() => window.gtag('event', '4892_calendar1_var2')}
           ref={calendarInView.itemRef}
         >
@@ -220,7 +224,9 @@ export const App = () => {
           style={{ backgroundColor: '#F2F3F5', paddingRight: '0' }}
           onClick={() => {
             window.gtag('event', '4892_crowd_var2');
-            window.location.replace('a-investments://CA?type=crowdlending&value=crowdlending');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcrowdlending%26value%3Dcrowdlending',
+            );
           }}
           ref={crowdInView.itemRef}
         >
@@ -237,7 +243,7 @@ export const App = () => {
 
         <PureCell
           style={{ marginTop: '1rem', marginLeft: '4px' }}
-          href="a-investments://CA?type=collections"
+          href="alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcollections"
           onClick={() => window.gtag('event', '4892_list1_var2')}
           ref={meshInView.itemRef}
         >
@@ -259,7 +265,9 @@ export const App = () => {
           className={appSt.swSlide3}
           onClick={() => {
             window.gtag('event', '4892_list2_var2');
-            window.location.replace('a-investments://CA?type=collections&value=9805');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcollections%26value%3D9805',
+            );
           }}
           style={{ backgroundColor: '#F2F3F5' }}
         >
@@ -275,7 +283,9 @@ export const App = () => {
           className={appSt.swSlide3}
           onClick={() => {
             window.gtag('event', '4892_list3_var2');
-            window.location.replace('a-investments://CA?type=collections&value=9805');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcollections%26value%3D10282',
+            );
           }}
           style={{ backgroundColor: '#F2F3F5' }}
         >
@@ -290,7 +300,9 @@ export const App = () => {
           className={appSt.swSlide3}
           onClick={() => {
             window.gtag('event', '4892_list4_var2');
-            window.location.replace('a-investments://CA?type=collections&value=9805');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcollections%26value%3D10283',
+            );
           }}
           style={{ backgroundColor: '#F2F3F5' }}
         >
@@ -306,7 +318,9 @@ export const App = () => {
           className={appSt.swSlide3}
           onClick={() => {
             window.gtag('event', '4892_list5_var2');
-            window.location.replace('a-investments://CA?type=collections&value=9805');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcollections%26value%3D10077',
+            );
           }}
           style={{ backgroundColor: '#F2F3F5' }}
         >
@@ -336,7 +350,9 @@ export const App = () => {
           style={{ backgroundColor: '#F2F3F5' }}
           onClick={() => {
             window.gtag('event', '4892_feature_var2');
-            window.location.replace('a-investments://CA?type=place&value=tipRanks');
+            window.location.replace(
+              'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dplace%26value%3DtipRanks',
+            );
           }}
           ref={featureInView.itemRef}
         >

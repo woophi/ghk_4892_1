@@ -24,7 +24,7 @@ export const firstSliderData = [
     subtitle2: '+13% в год',
     img: img1,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=59',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D59',
   },
   {
     chips: ['50 000 ₽', 'Высокий риск', '+104,4% за всё время'],
@@ -33,7 +33,7 @@ export const firstSliderData = [
     subtitle2: '+34% в год',
     img: img2,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=12',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D12',
   },
   {
     chips: ['50 000 ₽', 'Высокий риск', '+34% за всё время'],
@@ -42,7 +42,7 @@ export const firstSliderData = [
     subtitle2: '+33% в год',
     img: img3,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=79',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D79',
   },
   {
     chips: ['200 000 ₽', 'Высокий риск', '+106,6% за всё время'],
@@ -51,7 +51,7 @@ export const firstSliderData = [
     subtitle2: '+33% в год',
     img: img4,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=83',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D83',
   },
   {
     chips: ['200 000 ₽', 'Высокий риск', '+11,8% за всё время'],
@@ -60,7 +60,7 @@ export const firstSliderData = [
     subtitle2: '+33% в год',
     img: img5,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=68',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D68',
   },
   {
     chips: ['20 000 ₽', 'Низкий риск', '-3,3% за всё время'],
@@ -69,7 +69,7 @@ export const firstSliderData = [
     subtitle2: '+33% в год',
     img: img6,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=69',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D69',
   },
   {
     chips: ['50 000 ₽', 'Высокий риск', '-16,1% за всё время'],
@@ -78,7 +78,7 @@ export const firstSliderData = [
     subtitle2: '+32% в год',
     img: img7,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=86',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D86',
   },
   {
     chips: ['100 000 ₽', 'Высокий риск', '+21% за всё время'],
@@ -87,7 +87,7 @@ export const firstSliderData = [
     subtitle2: '+31% в год',
     img: img8,
     bgColor: '#F2F3F5',
-    link: 'a-investments://CA/5e297195?type=strategiesWidget&value=92',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%2F5e297195%3Ftype%3DstrategiesWidget%26value%3D92',
   },
 ];
 
@@ -96,25 +96,25 @@ export const secondSliderData = [
     img: imgs1,
     title: 'Дивиденды',
     subtitle: 'Успейте купить в этом месяце',
-    link: 'a-investments://CA?type=calendar&value=dividend',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcalendar%26value%3Ddividend',
   },
   {
     img: imgs2,
     title: 'Купоны',
     subtitle: 'Доход вместо депозита',
-    link: 'a-investments://CA?type=calendar&value=coupon',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcalendar%26value%3Dcoupon',
   },
   {
     img: imgs3,
     title: 'Отчёты',
     subtitle: 'Узнайте о ближайших публикациях',
-    link: 'a-investments://CA?type=calendar&value=report',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcalendar%26value%3Dreport',
   },
   {
     img: imgs4,
     title: 'Погашения и оферты',
     subtitle: 'Выплата номинала облигаций',
-    link: 'a-investments://CA?type=calendar&value=maturity',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dcalendar%26value%3Dmaturity',
   },
 ];
 
@@ -130,7 +130,7 @@ export const thirdSliderData = [
         от 57 500 ₽
       </>
     ),
-    link: 'a-investments://CA?type=ipo&value=1150',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dipo%26value%3D1150',
     bgColor: '#F2F3F5',
   },
   {
@@ -138,7 +138,7 @@ export const thirdSliderData = [
     title: 'Садко 001Р-01',
     subtitle: 'Облигации, RUB',
     textRow: 'Купон 23.5%',
-    link: 'a-investments://CA?type=ipo&value=1191',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dipo%26value%3D1191',
     bgColor: '#F2F3F5',
   },
   {
@@ -146,7 +146,7 @@ export const thirdSliderData = [
     title: 'ВЕРАТЕК 01',
     subtitle: 'Облигации, RUB',
     textRow: 'Купон 26%',
-    link: 'a-investments://CA?type=ipo&value=1232',
+    link: 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dipo%26value%3D1232',
     bgColor: '#F2F3F5',
   },
 ];
